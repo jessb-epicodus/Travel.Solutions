@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul>
+  <li>ID: @Model.DestinationId</li>
+  <li>City: @Model.City</li>
+  <li>Country @Model.Country</li>
+</ul>
+
+@Html.ActionLink("Home", "Index", "Home")
